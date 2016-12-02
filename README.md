@@ -8,7 +8,10 @@ Baseline:
 
 BoW model w/ Naive Bayes, in 'eda' notebook, giving 86.4% accuracy.
 
-RNN:
+Deep:
 
+LSTM => 87.5% after 3 epochs
+Conv => 
+GloVe [](http://nlp.stanford.edu/data/glove.6B.zip)
 
 
