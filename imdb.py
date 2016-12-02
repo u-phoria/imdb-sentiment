@@ -156,7 +156,7 @@ def train_glove(embedding_dims=100):
 
 
 def train(model, batch_size=64, nb_epoch=3):
-    X_train, X_test, y_train, y_test = load_train_test()
+    X_train, X_test, y_train, y_test, _ = load_train_test()
 
     model.summary()
     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
